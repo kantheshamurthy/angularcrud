@@ -10,11 +10,11 @@ const routes: Routes = [
     component:GstAddComponent
   },
   {
-    path:'business/create',
+    path:'business/edit/:id',
     component: GstEditComponent
   },
   {
-    path:'business/create',
+    path:'business',
     component:GstGetComponent
   }
 ];
